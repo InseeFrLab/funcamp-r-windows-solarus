@@ -3,7 +3,7 @@ game-package:
   stage: build
   script:
     - PACKAGE=$CI_PROJECT_NAME.zip
-    - cd solarus && wget https://git.lab.sspcloud.fr/lxwgkb/funcamp-r-icarius/-/archive/master/funcamp-r-icarius-master.zip 
+    - cd solarus && wget https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-icarius/-/archive/master/funcamp-r-icarius-master.zip 
     - unzip funcamp-r-icarius-master.zip 
     - mv funcamp-r-icarius-master/data/ data/
     - rm -r funcamp-r-icarius-master/ funcamp-r-icarius-master.zip
